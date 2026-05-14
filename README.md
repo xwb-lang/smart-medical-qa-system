@@ -36,3 +36,13 @@ graph TD
     A[前端页面] --> B[Spring Boot 后端]
     B --> C[Ollama 本地大模型]
     B --> D[MySQL 聊天记录存储]
+
+## 项目演示
+### 1. 流式对话主界面
+![对话主界面](docs/screenshots/chat-ui.png)
+
+### 2. SSE流式响应核心代码
+![SSE实现代码](docs/screenshots/sse-code.png)
+
+### 3. 医疗场景Prompt配置
+![Prompt工程代码](docs/screenshots/prompt-code.png)
